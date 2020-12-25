@@ -1,0 +1,22 @@
+{
+  "name": "simple-website-using-node-express-yeasin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bokamanushta/simple-website-using-node-express-yeasin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bokamanushta/simple-website-using-node-express-yeasin/issues"
+  },
+  "homepage": "https://github.com/Bokamanushta/simple-website-using-node-express-yeasin#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
