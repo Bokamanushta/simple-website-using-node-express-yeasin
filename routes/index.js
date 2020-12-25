@@ -5,16 +5,16 @@ const feedbackRoute = require('./feedback')
 
 const router = express.Router()
 
-module.exports = () => {
+module.exports = (params) => {
     router.get('/', (req, res) => {
         res.render('pages/index', {
             pageTitle: 'welcome'
         })
     })
 
-    router.use('/speakers', speakerRoute())
+    router.use('/speakers', speakerRoute(params))
 
-    router.use('/feedback', feedbackRoute())
+    router.use('/feedback', feedbackRoute(params))
 
     return router
 }
